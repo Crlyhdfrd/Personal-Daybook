@@ -9,7 +9,7 @@ $(document).ready(function () {
   var date_time = current_date+" "+current_time;
   document.getElementById("currentDay").innerHTML = date_time;
 
-  $("#ClearBtn").click(function (event) {
+  $("#clearBtn").click(function (event) {
     event.preventDefault;
     $("textarea").val("");
     localStorage.clear();
